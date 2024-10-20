@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" style="margin: 0; padding: 0; min-height: 100%; display: flex; flex-direction: column;">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style>
+        :root {
+            --bg: white;
+            --col: #1f2937;
+            --bg-dark: #0b0f19;
+            --col-dark: #f3f4f6;
+        }
+        body {
+            background: var(--bg);
+            color: var(--col);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: var(--bg-dark);
+                color: var(--col-dark);
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <script data-gradio-mode>
+        window.__gradio_mode__ = "app";
+        window.iFrameResizer = { heightCalculationMethod: "taggedElement" };
+        window.parent?.postMessage({ type: "SET_SCROLLING", enabled: false }, "*");
+    </script>
+    <script src="https://gradio.s3-us-west-2.amazonaws.com/4.44.1/gradio.js"></script>
+    <script>
+        window.gradio_config = {
+            // Place your Gradio configuration here
+            root: "https://7f35-2a02-2f09-d20e-6200-15d5-9b95-a57f-2ba1.ngrok-free.app",
+        };
+    </script>
+</head>
+<body style="width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; flex-grow: 1;">
+    <gradio-app control_page_title="true" embed="false" eager="true" style="display: flex; flex-direction: column; flex-grow: 1"></gradio-app>
+    <script>
+        const ce = document.getElementsByTagName("gradio-app");
+        if (ce[0]) {
+            ce[0].addEventListener("domchange", () => {
+                document.body.style.padding = "0";
+            });
+            document.body.style.padding = "0";
+        }
+    </script>
+</body>
+</html>
