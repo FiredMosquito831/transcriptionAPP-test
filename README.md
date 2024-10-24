@@ -4,6 +4,6 @@
 
 #### You can try out and test the app for free(english only) by pressing the button below:
 
-<a href="https://7b76-2a02-2f09-d20e-6200-dd51-ebe4-274e-9871.ngrok-free.app/">
+<a href="https://a919-2a02-2f09-d20e-6200-341e-66a6-7af3-f403.ngrok-free.app">
   <button>Test my app</button>
 </a>
