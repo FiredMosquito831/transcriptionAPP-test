@@ -23,12 +23,17 @@
 - [ ] Use a language model for audio post-processing to improve accuracy (will do)
 - [ ] Use another model for summarization and data extraction as another option
 
-### Some details:  WORK IN PROGRESS
+### Some details:  WORK IN PROGRESS (need to correct them)
 
-| First     | Second  |
-|-----------|---------|
-| Model     | tiny    |
-| size      | 300mb   |
-| Languages  | a       |
-|     | a       |
-|     | a       |
+| Model           | Size (GB) | VRAM Requirements | RAM Requirements | Supported Languages                                                                                                                      | Speed           |
+|-----------------|-----------|-------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| Tiny        | 0.07      | ~1 GB            | ~2 GB           | Primarily English; limited support for Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean                          | Fastest         |
+| Tiny.en     | 0.07      | ~1 GB            | ~2 GB           | English only                                                                                                                                   | Fastest         |
+| Base        | 0.14      | ~1.2 GB          | ~2.5 GB         | Supports 14 languages: English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean, and a few others               | Very Fast       |
+| Base.en     | 0.14      | ~1.2 GB          | ~2.5 GB         | English only                                                                                                                                   | Very Fast       |
+| Small       | 0.46      | ~2.4 GB          | ~3-4 GB         | Expanded language support: covers over 50 languages, including European and Asian languages                                                    | Fast            |
+| Medium      | 1.5       | ~5 GB            | ~8 GB           | Full language support with 57 languages covering major languages plus Polish, Swedish, Thai, Ukrainian, Czech, Vietnamese, Hebrew, Indonesian  | Moderate        |
+| Medium.en   | 1.5       | ~5 GB            | ~8 GB           | English only                                                                                                                                   | Moderate        |
+| Large       | 2.9       | ~10-12 GB        | ~12-16 GB       | Comprehensive support for 57 languages, including low-resource languages like Nepali, Somali, Swahili, Urdu, Tagalog, Croatian, and more       | Slower          |
+| Large-v2 / Turbo | 3.5-4 | ~12-14 GB       | ~16 GB          | Same as Large; optimized for lower latency across all supported languages                                                                      | Fast (Optimized)|
+
