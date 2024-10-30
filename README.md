@@ -27,13 +27,13 @@
 
 | Model           | Size (GB) | VRAM Requirements | RAM Requirements | Supported Languages                                                                                                                      | Speed           |
 |-----------------|-----------|-------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| Tiny        | 0.07      | ~1 GB            | ~2 GB           | Primarily English; limited support for Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean                          | Fastest         |
-| Tiny.en     | 0.07      | ~1 GB            | ~2 GB           | English only                                                                                                                                   | Fastest         |
-| Base        | 0.14      | ~1.2 GB          | ~2.5 GB         | Supports 14 languages: English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean, and a few others               | Very Fast       |
-| Base.en     | 0.14      | ~1.2 GB          | ~2.5 GB         | English only                                                                                                                                   | Very Fast       |
-| Small       | 0.46      | ~2.4 GB          | ~3-4 GB         | Expanded language support: covers over 50 languages, including European and Asian languages                                                    | Fast            |
-| Medium      | 1.5       | ~5 GB            | ~8 GB           | Full language support with 57 languages covering major languages plus Polish, Swedish, Thai, Ukrainian, Czech, Vietnamese, Hebrew, Indonesian  | Moderate        |
-| Medium.en   | 1.5       | ~5 GB            | ~8 GB           | English only                                                                                                                                   | Moderate        |
+| Tiny        | 0.07      | ~0.5 GB            | ~0.6 GB           | Primarily English; limited support for Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean                          | Fastest         |
+| Tiny.en     | 0.07      | ~0.4 GB            | ~0,6 GB           | English only                                                                                                                                   | Fastest         |
+| Base        | 0.14      | ~0.8 GB          | ~1 GB         | Supports 14 languages: English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Japanese, Korean, and a few others               | Very Fast       |
+| Base.en     | 0.14      | ~0.7 GB          | ~0.8 GB         | English only                                                                                                                                   | Very Fast       |
+| Small       | 0.46      | ~1.2 GB          | ~1.5 GB         | Expanded language support: covers over 50 languages, including European and Asian languages                                                    | Fast            |
+| Medium      | 1.5       | ~5 GB            | ~6 GB           | Full language support with 57 languages covering major languages plus Polish, Swedish, Thai, Ukrainian, Czech, Vietnamese, Hebrew, Indonesian  | Moderate        |
+| Medium.en   | 1.5       | ~3 GB            | ~4 GB           | English only                                                                                                                                   | Moderate        |
 | Large       | 2.9       | ~10-12 GB        | ~12-16 GB       | Comprehensive support for 57 languages, including low-resource languages like Nepali, Somali, Swahili, Urdu, Tagalog, Croatian, and more       | Slower          |
-| Large-v2 / Turbo | 3.5-4 | ~12-14 GB       | ~16 GB          | Same as Large; optimized for lower latency across all supported languages                                                                      | Fast (Optimized)|
+| Turbo         |  3.5-4 | ~5 GB       | ~4-5 GB          | Same as Large; optimized for faster inference across all supported languages                                                                      | Fast (Optimized)|
 
